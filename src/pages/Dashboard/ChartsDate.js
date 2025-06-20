@@ -78,7 +78,7 @@ export const ChartsDate = () => {
                 data: ticketsData?.data.length > 0 && ticketsData?.data.map((item, index) => {
                     return item.total
                 }),
-                backgroundColor: '#BD6D6D',
+                backgroundColor: '#00c8fb',
             },
         ],
     };

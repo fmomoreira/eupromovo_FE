@@ -31,7 +31,7 @@ const App = () => {
     []
   );
   
-  // #BD6D6D #00c8fb
+  // #00c8fb #00c8fb
 
   const theme = createTheme(
     {
@@ -42,7 +42,7 @@ const App = () => {
         },
         "&::-webkit-scrollbar-thumb": {
           boxShadow: "inset 0 0 6px rgba(0, 0, 0, 0.3)",
-          backgroundColor: "#BD6D6D",
+          backgroundColor: "#00c8fb",
         },
       },
       scrollbarStylesSoft: {
@@ -55,9 +55,9 @@ const App = () => {
       },
       palette: {
         type: mode,
-        primary: { main: mode === "light" ? "#BD6D6D" : "#FFFFFF" },
-        textPrimary: mode === "light" ? "#BD6D6D" : "#FFFFFF",
-        borderPrimary: mode === "light" ? "#BD6D6D" : "#FFFFFF",
+        primary: { main: mode === "light" ? "#00c8fb" : "#FFFFFF" },
+        textPrimary: mode === "light" ? "#00c8fb" : "#FFFFFF",
+        borderPrimary: mode === "light" ? "#00c8fb" : "#FFFFFF",
         dark: { main: mode === "light" ? "#333333" : "#F3F3F3" },
         light: { main: mode === "light" ? "#F3F3F3" : "#333333" },
         tabHeaderBackground: mode === "light" ? "#EEE" : "#666",
@@ -80,7 +80,7 @@ const App = () => {
         inputBackground: mode === "light" ? "#FFFFFF" : "#333",
         barraSuperior:
           mode === "light"
-            ? "linear-gradient(to right, #BD6D6D, #BD6D6D , #BD6D6D)"
+            ? "linear-gradient(to right, #00c8fb, #00c8fb , #00c8fb)"
             : "#666",
         boxticket: mode === "light" ? "#EEE" : "#666",
         campaigntab: mode === "light" ? "#ededed" : "#666",
