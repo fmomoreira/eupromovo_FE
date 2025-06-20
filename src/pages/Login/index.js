@@ -24,7 +24,7 @@ const Copyright = () => {
     <Typography variant="body2" color="primary" align="center">
       {"Copyright "}
       <Link color="primary" href="#">
-        Rede IntegraFarma Saas - v 10.7.0
+        Eu Promovo Saas - v 10.7.0
         {/* {nomeEmpresa} - v {versionSystem} */}
       </Link>{" "}
       {new Date().getFullYear()}
